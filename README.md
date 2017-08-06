@@ -25,7 +25,7 @@ This code only supports v2 of the CMX API.
 1. Grab merakicmx.py from github
 2. Put it in the 'device_tracker' 'custom components' location appropriate for your install.  For mine it was: `/home/homeassistant/.homeassistant/custom_components/device_tracker`.
 3. Configure access to the Meraki CMX API as per the following directions: https://meraki.cisco.com/technologies/location-analytics-api
-3.1.  As you configure the URL for the POSTs to go through, you'll need to take care to add http(s) as configure as well as any Home Asssistant API password to the Meraki configuration (e.g. https://<blah.com>:8123/api/meraki?api_password=<yourHassAPIpassword>)
+  3.1  As you configure the URL for the POSTs to go through, you'll need to take care to add http(s) as configure as well as any Home Asssistant API password to the Meraki configuration (e.g. https://<blah.com>:8123/api/meraki?api_password=<yourHassAPIpassword>)
 Note:  The API enpoint will always be /api/meraki 
 4. Take the 'secret' and the 'validator' assocaited with this configuration and use it in the homeassistant configuration (configuration.yaml or wherever you've included for device trackers) as follows:
 
