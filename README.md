@@ -30,12 +30,12 @@ This code only supports v2 of the CMX API.
   * The API enpoint will always be /api/meraki 
 4. Take the 'secret' and the 'validator' assocaited with this configuration and use it in the homeassistant configuration (configuration.yaml or wherever you've included for device trackers) as follows:
 
-`
+```
 device_tracker:
  - platform: merakicmx
    secret: <insert your secret here>
    validator: <insert your validator here>
-`
+````
 5.  Restart your homeassistant install
 6.  Go back to the Meraki CMX API setup page and "validate" the URL provided.
 
