@@ -1,3 +1,10 @@
+
+#PLEASE USE THIS:
+
+https://www.home-assistant.io/components/device_tracker.meraki/
+
+This code is not maintained and likely wont work.
+
 # merakicmx
 Meraki CMX API device tracker for Home Assistant
 
